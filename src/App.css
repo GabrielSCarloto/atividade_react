@@ -1,0 +1,327 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:0;
+}
+
+.App {
+  text-align:center;
+  width:100%;
+  height:auto;
+}
+
+.fixo {
+  position:fixed;
+  width:100%;
+  z-index:99;
+}
+
+.topo {
+  width:100%;
+  height:55px;
+  background-color:#ebebeb;
+  display:flex;
+  flex-direction:row;
+  line-height:55px;
+}
+
+.globocom {
+  color:blue;
+  font-weight:bold;
+  margin-left:1%;
+  text-decoration:none;
+}
+
+.globocom:hover {
+  border-top:2px solid blue;
+  opacity:60%;
+  color:blue;
+}
+
+.g1 {
+  color:darkred;
+  font-weight:bold;
+  margin-left:1%;
+  text-decoration:none;
+}
+
+.g1:hover {
+  border-top:2px solid darkred;
+  opacity:60%;
+  color:darkred;
+}
+
+.ge {
+  color:green;
+  font-weight:bold;
+  margin-left:1%;
+  text-decoration:none;
+}
+
+.ge:hover {
+  border-top:2px solid green;
+  opacity:60%;
+  color:green;
+}
+
+.gshow {
+  color:orangered;
+  font-weight:bold;
+  margin-left:1%;
+  text-decoration:none;
+}
+
+.gshow:hover {
+  border-top:2px solid orangered;
+  opacity:60%;
+  color:orangered;
+}
+
+.globoplay {
+  color:red;
+  font-weight:bold;
+  margin-left:1%;
+  text-decoration:none;
+}
+
+.globoplay:hover {
+  border-top:2px solid red;
+  opacity:60%;
+  color:red;
+}
+
+.g1_logo {
+  width:70px;
+  height:60px;
+  margin-left:24.6%;
+  margin-top:-1px;
+}
+
+.login {
+  width:6%;
+  height:30px;
+  margin-top:13px;
+  margin-left:40%;
+  border-radius:5px;
+  border:1px solid #CCC;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.login p {
+  margin-top:-13px;
+}
+
+.login:hover {
+  background-color:white;
+  color:blue;
+  transition:0.35s all;
+}
+
+.cabecalho {
+  width:100%;
+  height:70px;
+  background-color:#a30000;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  padding-top:20px;
+  font-size:20px;
+}
+
+.tech {
+  margin-left:2%;
+  color:#FFF;
+}
+
+.tech:hover {
+  opacity:70%;
+  cursor:pointer;
+}
+
+nav {
+  width:50%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  text-align:center;
+  margin-left:16%;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+}
+
+nav a:hover {
+  border-top:2px solid #CCC;
+  color:#CCC;
+}
+
+.busca {
+  width:10%;
+  height:25px;
+  margin-top:3px;
+  margin-left:11%;
+  background-color:#750000;
+  border:none;
+  border-bottom-left-radius:3px;
+  border-top-left-radius:3px;
+  color:white;
+  float:left;
+}
+
+.busca::placeholder {
+  color:white;
+  padding-left:5px;
+}
+
+.lupa {
+  width:25px;
+  height:25px;
+  margin-top:3px;
+  background-color:#520000;
+  border:none;
+  border-top-right-radius:3px;
+  border-bottom-right-radius:3px;
+  float:left;
+}
+
+.lupa img {
+  width:20px;
+  height:20px;
+  margin-top:-10px;
+}
+
+.lupa:hover {
+  background-color:#380000;
+  transform:scale(1.1);
+}
+
+.conteudo {
+  width:100%;
+  height:2700px;
+  background-color:#ffffff;
+  justify-content:center;
+  color:#000000;
+  padding-top:150px;
+}
+
+.conteudo_titulo {
+  width:60%;
+  font-size:30px;
+  font-weight:bold;
+  margin-left:20%;
+  text-align:justify;
+}
+
+.conteudo_subtitulo {
+  width:60%;
+  font-size:20px;
+  margin-left:20%;
+  text-align:left;
+}
+
+.assinatura {
+  font-size:20px;
+  text-align:justify;
+  margin-left:20%;
+  font-weight: 500;
+  color:#272727;
+}
+
+.redes_sociais {
+  width:15%;
+  height:30px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-left:65%;
+  margin-top:-60px;
+}
+
+.redes_sociais img {
+  height:30px;
+}
+
+.linha {
+  width:60%;
+  height:1px;
+  margin-left:20%;
+  margin-top:50px;
+  background-color:#6b6b6b;
+}
+
+.orkut {
+  width:50%;
+  height:350px;
+  margin-top:50px;
+}
+
+.conteudo_texto {
+  font-size:20px;
+  width:50%;
+  text-align:justify;
+  margin-left:25%;
+  margin-top:50px;
+}
+
+.video {
+  width:50%;
+  height:400px;
+  margin-top:50px;
+  margin-bottom:70px;
+}
+
+.noticias {
+  width:60%;
+  height:400px;
+  margin-left:20%;
+}
+
+.noticias_titulo {
+  font-size:30px;
+  font-weight:bold;
+  text-align:left;
+  margin-bottom:30px;
+}
+
+.noticias img {
+  position:relative;
+  width:100%;
+  height:450px;
+}
+
+.rodape {
+  width:100%;
+  height:70px;
+  background-color:#a30000;
+  display:flex;
+}
+
+.copy {
+  padding-top:25px;
+  padding-left:2%;
+  color:white;
+}
+
+.extra {
+  margin-top:25px;
+  margin-left:40%;
+  padding-right:2%;
+  text-decoration:none;
+  color:white;
+}
+
+.extra2 {
+  text-decoration:none;
+  margin-top:25px;
+  color:white;
+}
+
+.extra:hover, .extra2:hover {
+  color:white;
+  opacity:60%;
+}
